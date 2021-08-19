@@ -17,8 +17,8 @@ const SpeedRange = () => {
         type="range"
         id="speed"
         name="speed"
-        min="1"
-        max="10"
+        min="3"
+        max="30"
         value={speed}
         onChange={(e) => {
           setSpeed(e.target.value)

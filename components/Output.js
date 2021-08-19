@@ -14,7 +14,8 @@ const Output = () => {
 
   const animation =
     "gradient-animation " +
-    colorSelection.length * Math.abs(speed - 11) +
+    // colorSelection.length * Math.abs(speed - 11) +
+    speed +
     "s ease infinite"
 
   const code = `.gradient-background {
